@@ -1,1 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Quiz Land P6</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-root">
+    <canvas id="game-canvas" width="1280" height="720"></canvas>
 
+    <div id="ui">
+      <div id="hearts">❤❤❤❤</div>
+      <div id="score">Score: 0</div>
+      <button id="mute-btn">🔊</button>
+    </div>
+
+    <!-- Question modal -->
+    <div id="question-modal" class="hidden" role="dialog" aria-modal="true">
+      <div class="modal-inner">
+        <div id="question-text"></div>
+        <div id="choices"></div>
+        <button id="close-question" class="hidden">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
