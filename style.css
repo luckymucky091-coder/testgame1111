@@ -1,19 +1,125 @@
-:root {
-  --bg-color: #bde6c4;
-  --ui-bg: rgba(0,0,0,0.6);
-  --pixel-font: "Press Start 2P", monospace;
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
 }
-html,body { height:100%; margin:0; font-family:var(--pixel-font); background:var(--bg-color); }
-#game-root { position:relative; width:100%; max-width:1280px; margin:0 auto; }
-#game-canvas { display:block; width:100%; height:auto; background:linear-gradient(#7ec850,#4b8b3b); image-rendering: pixelated; }
 
-#ui { position:absolute; top:10px; left:10px; right:10px; display:flex; justify-content:space-between; color:#fff; }
-#hearts { font-size:18px; text-shadow:0 0 4px #000; }
-#score { font-size:18px; text-shadow:0 0 4px #000; }
-#mute-btn { background:var(--ui-bg); color:#fff; border:0; padding:6px 10px; border-radius:4px; }
+body{
 
-#question-modal { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,0.5); }
-#question-modal.hidden { display:none; }
-.modal-inner { background:#fff; color:#000; padding:16px; width:80%; max-width:600px; border-radius:8px; }
-#choices { margin-top:12px; display:grid; gap:8px; }
-.choice-btn { background:#222; color:#fff; padding:8px; border-radius:6px; border:0; text-align:left; }
+overflow:hidden;
+
+background:#76c7ff;
+
+font-family:Arial;
+
+}
+
+canvas{
+
+display:block;
+
+width:100vw;
+
+height:100vh;
+
+background:linear-gradient(
+
+#8fd3ff,
+
+#dff7ff
+
+);
+
+image-rendering:pixelated;
+
+}
+
+#menu{
+
+position:absolute;
+
+left:50%;
+
+top:50%;
+
+transform:translate(-50%,-50%);
+
+text-align:center;
+
+background:rgba(0,0,0,.45);
+
+padding:40px;
+
+border-radius:20px;
+
+color:white;
+
+backdrop-filter:blur(10px);
+
+}
+
+.logo{
+
+font-size:60px;
+
+font-weight:bold;
+
+margin-bottom:10px;
+
+}
+
+.subtitle{
+
+font-size:22px;
+
+margin-bottom:35px;
+
+}
+
+button{
+
+padding:15px 35px;
+
+font-size:22px;
+
+margin:10px;
+
+border:none;
+
+border-radius:12px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+}
+
+#hud{
+
+display:none;
+
+position:absolute;
+
+top:15px;
+
+left:15px;
+
+font-size:28px;
+
+color:white;
+
+text-shadow:2px 2px black;
+
+gap:30px;
+
+}
