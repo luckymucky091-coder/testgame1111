@@ -1,31 +1,70 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="th">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Quiz Land P6</title>
-  <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1.0">
+
+<title>Quiz Land P6</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-  <div id="game-root">
-    <canvas id="game-canvas" width="1280" height="720"></canvas>
 
-    <div id="ui">
-      <div id="hearts">❤❤❤❤</div>
-      <div id="score">Score: 0</div>
-      <button id="mute-btn">🔊</button>
-    </div>
+<div id="menu">
 
-    <!-- Question modal -->
-    <div id="question-modal" class="hidden" role="dialog" aria-modal="true">
-      <div class="modal-inner">
-        <div id="question-text"></div>
-        <div id="choices"></div>
-        <button id="close-question" class="hidden">Continue</button>
-      </div>
-    </div>
-  </div>
+<div class="logo">
 
-  <script src="game.js"></script>
+QUIZ LAND P6
+
+</div>
+
+<div class="subtitle">
+
+Computer Adventure
+
+</div>
+
+<button id="startBtn">
+
+START GAME
+
+</button>
+
+<button id="settingBtn">
+
+SETTINGS
+
+</button>
+
+</div>
+
+<div id="hud">
+
+<div id="heart">
+
+❤️❤️❤️❤️
+
+</div>
+
+<div id="coinText">
+
+0 / 10
+
+</div>
+
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<script src="js/main.js"></script>
+
 </body>
+
 </html>
