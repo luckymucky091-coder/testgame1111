@@ -1,0 +1,12 @@
+[
+  {"q":"What does the computer 'mouse' do?","choices":["Makes the computer louder","Helps you point and click","Stores files","Cools the computer"], "answerIndex":1},
+  {"q":"Which device lets you type text?","choices":["Printer","Keyboard","Monitor","Scanner"], "answerIndex":1},
+  {"q":"What is a web browser used for?","choices":["Running games offline","Viewing websites","Painting pictures","Storing files"], "answerIndex":1},
+  {"q":"Which file type likely contains an image?","choices":[".mp3",".jpg",".txt",".exe"], "answerIndex":1},
+  {"q":"What does 'internet' let you do?","choices":["Connect to other computers and websites","Bake a cake","Charge a phone","Paint"], "answerIndex":0},
+  {"q":"What is a password for?","choices":["Making a music file","Keeping your account secure","Printing documents","Watching videos"], "answerIndex":1},
+  {"q":"If you copy and paste, what happens?","choices":["You move or duplicate text/data","Your computer restarts","You erase the internet","You change your password"], "answerIndex":0},
+  {"q":"Which program would you use to write a letter?","choices":["Spreadsheet app","Internet browser","Word processor","Video editor"], "answerIndex":2},
+  {"q":"What is code?","choices":["A secret box","Instructions that tell a computer what to do","A type of music","A photo format"], "answerIndex":1},
+  {"q":"What is a safe online behavior?","choices":["Sharing your password with friends","Clicking every link you get","Asking a trusted adult before sharing personal info","Giving money to strangers"], "answerIndex":2}
+]
