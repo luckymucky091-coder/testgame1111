@@ -256,3 +256,4 @@ window.onload = () => {
     game.start();
 
 };
+let player;
